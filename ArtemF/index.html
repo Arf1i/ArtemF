@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true">
+    <span class="triangles layer-one"></span>
+    <span class="triangles layer-two"></span>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#hero">Portfolio</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-content">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Arfi</h1>
+        <p class="subtitle">Video Editor & Reels Maker</p>
+        <a class="btn" href="#projects">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Still learning how to edit videos well. Someday this site will come in handy!
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            
+          </article>
+          <article class="project-card reveal">
+            
+          </article>
+          <article class="project-card reveal">
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to work together? Let's connect.</p>
+        <a class="btn btn-outline" href="mailto:arrrfi1i@gmail.com">arrrfi1i@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Arfi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
